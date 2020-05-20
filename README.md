@@ -5,21 +5,17 @@ This project will be part of my Kubernetes + Istio Practice as network test work
 # Quick-Start
 ```
 cd ${SOME DIR}
-cookiecutter https://github.com/evinoca/project-template-fastapi
+cookiecutter https://github.com/evinoca/cookiecutter-fastapi --no-input project=ms-fastapi-demo registry_name=evinoca
 ```
-Input variables
+# Variables
 
-The generator (cookiecutter) will ask you for some data, you might want to have at hand before generating the project.
-
-The input variables, with their default values (some auto generated) are:
-
-    project_name: The name of the project
-
+1. project
+2. registry_name
 
 
 # Feats
 This is a cookiecutter template for fast-api services which include
-1. [ ] Fast-API
-2. [ ] Swagger Integration
+1. [*] Fast-API
+2. [ ] Github Action Integration
 3. [ ] Docker integration(With Personal Github)
-4. [ ] Github Action Integration
+4. [ ] Swagger Integration

@@ -1,6 +1,6 @@
 FROM python:slim
 
-WORKDIR /services/test_fastapi
+WORKDIR /services/{{ cookiecutter.project }}
 
 COPY Pipfile Pipfile.lock ./
 

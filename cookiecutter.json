@@ -1,3 +1,4 @@
 {
-	"project_name": "Project Template - Fast API"
+	"project": "Project Template - Fast API",
+	"registry_name": "Registry to store docker images"
 }
