@@ -1,0 +1,4 @@
+{
+	"project": "{{ cookiecutter.project }}",
+	"registry_name": "{{ cookiecutter.registry_name }}"
+}

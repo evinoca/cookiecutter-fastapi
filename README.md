@@ -5,7 +5,10 @@ This project will be part of my Kubernetes + Istio Practice as network test work
 # Quick-Start
 ```
 cd ${SOME DIR}
-cookiecutter https://github.com/evinoca/cookiecutter-fastapi --no-input project=ms-fastapi-demo registry_name=evinoca
+cookiecutter https://github.com/evinoca/cookiecutter-fastapi \
+project=ms-fastapi-demo \
+registry_name=evinoca \
+--no-input
 ```
 # Variables
 
